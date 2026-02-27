@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+        @apply antialiased text-slate-900 selection:bg-indigo-500/30 bg-white;
+    }
+}
+
+@theme {
+    --color-card: #ffffff;
+    --color-border-glass: #e2e8f0;
+}
